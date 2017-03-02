@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: WatsonHackathon_mukul
+  host: WatsonHackathonl
+  disk_quota: 1024M
+  services:
+  - WatsonHackathon_mukul-cloudantNoSQLDB
+  - WatsonHackathon_mukul-iotf-service
